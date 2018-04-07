@@ -48,4 +48,7 @@ You can simply keep track of it in a matrix. A solved matrix would look like thi
 
 This one was pretty interesting. I even used OpenSCAD to do some checks and calculations before I submitted. My reasoning and detailed explanation are in the [code itself](https://github.com/twinone/gcj/blob/master/qualification/4-CubicUFO.cc).
 
+You can do it much simpler than in my solution by just using the trigonometric functions directly also for the larger areas, 
+but I did not want to think and just implemented 3D rotations on 2 axis. It looks like a lot of code but half of it is duplicate. Not the most elegant way but hey, it's a quick hack :)
+
 
