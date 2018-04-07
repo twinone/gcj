@@ -11,8 +11,8 @@ Swap the last occurrence of `CS` to `SC`, removing the highest power beam to hal
 
 ### Problem 2
 
-I found problem 1 interesting, you have to see that it's actually 2 separate vectors corresponding to even/odd positions.
-Once you find that, you can sort both vectors independently in `O(n log n)` instead of simulating the`O(n^2)` and the problem becomes solvable.
+I found this problem interesting, you have to see that it's actually 2 separate vectors corresponding to even/odd positions.
+Once you find that, you can sort both vectors independently in `O(n log n)` instead of simulating the `O(n^2)` and the problem becomes solvable.
 
 This problem reminded me of a mergesort, but splitting the vectors instead of merging them.
 
